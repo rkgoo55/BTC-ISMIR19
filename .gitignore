@@ -1,0 +1,55 @@
+# IDE/Editor settings
+.obsidian/*
+.cursor/commands
+.cursor/rules/
+.cursor/skills/
+.cursor/mcp.json
+.cursorignore
+
+.github/instructions/
+.github/prompts/
+.github/skills/
+.vscode/mcp.json
+
+.idea/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.python-version
+
+# System files
+.DS_Store
+**/.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+spec/
+core/demix/
+
+# ONNX export outputs (models are large binary files; host separately)
+
+# Environment variables
+.env
+.env.local
+
+# Testing and type checking
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
